@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Flash Screen Recorder</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://use.fontawesome.com/705380a71e.js"></script>
+  </head>
+  <body>
+    <div class="title is-1">
+      <h1>
+        Flash Screen Recorder
+        <i class="fa fa-video-camera" aria-hidden="true"></i>
+      </h1>
+
+      <div class="box">
+        <video></video>
+      </div>
+
+      <button id="videoSelectBtn" class="button is-black button is-medium">
+        Choose the Video Source
+      </button>
+
+      <hr />
+
+      <button
+        id="startBtn"
+        class="button is-primary button is-normal"
+      >
+        Start 
+      </button>
+      <button
+        id="stopBtn"
+        class="button is-warning button is-normal"
+      >
+        Stop 
+      </button>
+    </div>
+  </body>
+  <hr />
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <h3>
+        Made by
+        <a href="https://www.linkedin.com/in/smit-mehta-458a01190"
+          >Smit Mehta</a
+        >
+      </h3>
+    </div>
+  </footer>
+
+  <script src="render.js"></script>
+</html>
